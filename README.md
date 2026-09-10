@@ -375,22 +375,16 @@ Crafting end-to-end applications with reactive frontends (Next.js, React, Tailwi
 <div align="center">
 
 <a href="https://github.com/santheesh73">
-  <img src="https://github-readme-stats.vercel.app/api?username=santheesh73&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight&rank_icon=github" width="49%" alt="GitHub Statistics" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=santheesh73&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=tokyonight&rank_icon=github" height="195" alt="GitHub Statistics" />
 </a>
 <a href="https://github.com/santheesh73">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=santheesh73&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" width="41%" alt="Top Languages" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=santheesh73&hide_border=true&theme=tokyonight" height="195" alt="Top Languages" />
 </a>
 
 <br><br>
 
 <a href="https://github.com/santheesh73">
   <img src="https://streak-stats.demolab.com?user=santheesh73&theme=tokyonight&hide_border=true" width="65%" alt="GitHub Streak" />
-</a>
-
-<br><br>
-
-<a href="https://github.com/santheesh73">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=santheesh73&theme=tokyo-night&hide_border=true&area=true" width="95%" alt="Contribution Activity Graph" />
 </a>
 
 </div>
