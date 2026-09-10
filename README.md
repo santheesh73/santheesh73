@@ -387,23 +387,15 @@ Crafting end-to-end applications with reactive frontends (Next.js, React, Tailwi
   <img src="https://streak-stats.demolab.com?user=santheesh73&theme=tokyonight&hide_border=true" width="65%" alt="GitHub Streak" />
 </a>
 
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/santheesh73/santheesh73/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/santheesh73/santheesh73/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/santheesh73/santheesh73/output/github-contribution-grid-snake-dark.svg" width="95%" />
+</picture>
+
 </div>
-
-<details>
-<summary><b>🐍 Contribution Snake Animation Setup</b></summary>
-
-<br>
-
-To automatically generate and render the animated contribution snake on your profile:
-
-1. Create the workflow file in this repository: `.github/workflows/snake.yml`
-2. Configure `Platane/snk` action to output to branch `output` at path `github-contribution-grid-snake.svg`.
-3. Once active, embed:
-```html
-<img src="https://raw.githubusercontent.com/santheesh73/santheesh73/output/github-contribution-grid-snake.svg" alt="Contribution Snake" width="100%" />
-```
-
-</details>
 
 ---
 
