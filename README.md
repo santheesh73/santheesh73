@@ -1,26 +1,22 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0204,35:1A0509,70:580F16,100:DC2626&height=220&section=header&text=SANTHEESH%20S&fontSize=52&fontColor=ffffff&fontAlignY=42&desc=AI%20ENGINEER%20%E2%80%A2%20FULL-STACK%20DEVELOPER%20%E2%80%A2%20BUILDER&descAlignY=64&descSize=16" width="100%" alt="Header Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0204,35:1A0509,70:580F16,100:DC2626&height=210&section=header&text=SANTHEESH%20S&fontSize=50&fontColor=ffffff&fontAlignY=42&desc=AI%20ENGINEER%20%E2%80%A2%20FULL-STACK%20DEVELOPER&descAlignY=64&descSize=16" width="100%" alt="Header Banner" />
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&height=50&lines=%3E+initializing+profile...;%3E+loading+AI+systems...;%3E+loading+projects...;%3E+loading+engineering+stack...;%3E+status%3A+BUILDING" alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=EF4444&center=true&vCenter=true&width=800&height=50&lines=%3E+initializing+profile...;%3E+loading+AI+systems...;%3E+loading+projects...;%3E+status%3A+BUILDING" alt="Typing Animation" />
 
 <br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-santheesh73-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/santheesh73)
-[![Repositories](https://img.shields.io/badge/Repositories-Public_Projects-0284C7?style=for-the-badge&logo=git&logoColor=white)](https://github.com/santheesh73?tab=repositories)
-[![Profile Views](https://komarev.com/ghpvc/?username=santheesh73&style=for-the-badge&label=VISITORS&color=38BDF8)](https://github.com/santheesh73)
+[![Repositories](https://img.shields.io/badge/Repositories-Public_Projects-DC2626?style=for-the-badge&logo=git&logoColor=white)](https://github.com/santheesh73?tab=repositories)
+[![Profile Views](https://komarev.com/ghpvc/?username=santheesh73&style=for-the-badge&label=VISITORS&color=DC2626)](https://github.com/santheesh73)
 
 <br><br>
 
-<a href="#-about-me">About</a> •
-<a href="#-what-i-build">What I Build</a> •
-<a href="#-featured-projects">Featured Projects</a> •
-<a href="#-technology-stack">Tech Stack</a> •
-<a href="#%EF%B8%8F-engineering-philosophy">Philosophy</a> •
-<a href="#-github-analytics">Analytics</a> •
-<a href="#-connect">Connect</a>
+### `AI × SOFTWARE × PRODUCT`
+**Building intelligent software that turns complex problems into useful products.**  
+Specialized in **Generative AI**, **LLMs**, **RAG**, **AI Agents**, **On-Device AI**, and **Full-Stack Systems**.
 
 </div>
 
@@ -42,50 +38,33 @@
 
 ---
 
-## 🔬 About Me
+## 🛠️ Tech Stack
 
-I design and build intelligent software systems that turn complex problems into reliable, high-utility products.
+<div align="center">
 
-My engineering centers on building systems where **AI reasons and extracts**, **deterministic logic computes and validates**, and **clean full-stack interfaces deliver real-world utility**. From browser-native local LLM runtimes to multi-agent code review panels and automated compliance engines, I focus on practical systems that are robust, private, and production-ready.
+#### Languages
+<img src="https://skillicons.dev/icons?i=python,typescript,javascript,html,css&perline=5" alt="Languages" />
 
----
+<br>
 
-## 🎯 What I Build
+#### Frontend
+<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind&perline=4" alt="Frontend" />
 
-<table>
-<tr>
-<td width="20%" valign="top">
+<br>
 
-### 🤖 Generative AI
-Frontier LLM applications focused on reasoning, structured data extraction, and workflow synthesis.
+#### AI & Machine Learning
+<img src="https://img.shields.io/badge/LLMs-Prompt_Engineering-111827?style=for-the-badge&logo=openai&logoColor=white" alt="LLMs" />
+<img src="https://img.shields.io/badge/RAG-Vector_Search-0F766E?style=for-the-badge" alt="RAG" />
+<img src="https://img.shields.io/badge/AI_Agents-2563EB?style=for-the-badge" alt="AI Agents" />
+<img src="https://img.shields.io/badge/Generative_AI-8E44AD?style=for-the-badge" alt="Generative AI" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
 
-</td>
-<td width="20%" valign="top">
+<br><br>
 
-### 🧠 LLM Applications
-Domain-specific intelligent products combining foundation models with deterministic software logic.
+#### Backend & Data
+<img src="https://skillicons.dev/icons?i=fastapi,postgres,mongodb,sqlite,redis,supabase&perline=6" alt="Backend and Databases" />
 
-</td>
-<td width="20%" valign="top">
-
-### 🔎 RAG & Knowledge
-Production retrieval architectures with vector embeddings, semantic search, and verified citations.
-
-</td>
-<td width="20%" valign="top">
-
-### ⚡ On-Device AI
-Zero-cloud local inference running in browsers via WebGPU and WebLLM for complete privacy.
-
-</td>
-<td width="20%" valign="top">
-
-### 💻 Full-Stack Products
-End-to-end web apps and APIs built with React, Next.js, and high-performance FastAPI backends.
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
@@ -96,37 +75,33 @@ End-to-end web apps and APIs built with React, Next.js, and high-performance Fas
 <td width="50%" valign="top">
 
 ### 🎵 HeartTune
-> **Premium music streaming Progressive Web App.**
+**Premium music streaming experience.**
 
-A modern music streaming experience built for high audio fidelity, seamless playback, and offline listening.
+`PWA` • `High-Fidelity Audio` • `Offline Playlists`
 
-- High-fidelity streaming with custom playlist management
-- Offline-first PWA caching for uninterrupted listening
-- Responsive, low-latency audio player UI
-
-`Next.js` • `React` • `TypeScript` • `Tailwind CSS` • `Supabase` • `Redis`
+`Next.js` • `React` • `TypeScript` • `Supabase` • `Redis`
 
 <br>
 
-[View Repository →](https://github.com/santheesh73/HeartTune)
+<a href="https://github.com/santheesh73/HeartTune">
+  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+</a>
 
 </td>
 <td width="50%" valign="top">
 
 ### 🧠 NISF
-> **AI creative intelligence & content optimization platform.**
+**AI-powered creative intelligence platform.**
 
-A full-stack AI platform designed to generate, analyze, and optimize marketing creative assets across modalities.
+`Multimodal GenAI` • `Asset Scoring` • `Optimization`
 
-- Multimodal content generation (text, image, audio, video)
-- Intelligent performance analysis and asset scoring
-- High-throughput asynchronous generation pipelines
-
-`FastAPI` • `Python` • `Next.js` • `PostgreSQL` • `Redis` • `Groq` • `Hugging Face`
+`FastAPI` • `Python` • `Next.js` • `PostgreSQL` • `Groq`
 
 <br>
 
-[View Repository →](https://github.com/santheesh73/NISF_V2)
+<a href="https://github.com/santheesh73/NISF_V2">
+  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+</a>
 
 </td>
 </tr>
@@ -135,37 +110,33 @@ A full-stack AI platform designed to generate, analyze, and optimize marketing c
 <td width="50%" valign="top">
 
 ### 🔍 AHAL
-> **AI software intelligence & codebase understanding platform.**
+**AI-powered software intelligence platform.**
 
-Transforms repositories, technical documentation, and codebases into actionable developer insights powered by Gemma.
+`Repository Analysis` • `Architecture Mapping` • `Codebase Q&A`
 
-- Automated codebase ingestion and structural analysis
-- Subsystem dependency mapping and architecture extraction
-- Interactive conversational technical analyst grounded in code
-
-`React` • `TypeScript` • `FastAPI` • `Python` • `MongoDB` • `Gemma`
+`React` • `TypeScript` • `FastAPI` • `MongoDB` • `Gemma`
 
 <br>
 
-[View Repository →](https://github.com/santheesh73/AHAL-V2)
+<a href="https://github.com/santheesh73/AHAL-V2">
+  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+</a>
 
 </td>
 <td width="50%" valign="top">
 
 ### 💎 PRYSM
-> **AI audit intelligence & continuous compliance platform.**
+**AI audit & compliance intelligence platform.**
 
-Detects financial compliance gaps, reconciliation mismatches, and audit risks from statutory filings before formal audits.
+`Pre-Audit Checks` • `Financial OCR` • `Semantic Search`
 
-- Ingestion of invoices, GST returns, and financial reports
-- Deterministic compliance checks and mismatch detection
-- Semantic document search across multi-year statutory records
-
-`Next.js` • `FastAPI` • `Python` • `PyMuPDF` • `ChromaDB` • `PostgreSQL`
+`Next.js` • `FastAPI` • `Python` • `PyMuPDF` • `ChromaDB`
 
 <br>
 
-[View Repository →](https://github.com/santheesh73/PRYSM---Continuous-AI-Compilance-Operating-System)
+<a href="https://github.com/santheesh73/PRYSM---Continuous-AI-Compilance-Operating-System">
+  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+</a>
 
 </td>
 </tr>
@@ -174,37 +145,33 @@ Detects financial compliance gaps, reconciliation mismatches, and audit risks fr
 <td width="50%" valign="top">
 
 ### 🛰️ Orion
-> **Private, offline-first on-device AI assistant.**
+**Private, offline-first on-device AI assistant.**
 
-Executes local LLM inference directly inside the browser using WebGPU, ensuring complete data privacy with zero cloud latency.
+`Zero Cloud` • `Browser WebGPU LLM` • `IndexedDB`
 
-- Browser-native local inference powered by WebLLM & WebGPU
-- Isolated Web Workers for model execution and doc parsing
-- Client-side document upload, chunking, and local IndexedDB chat
-
-`Next.js` • `TypeScript` • `WebGPU` • `WebLLM` • `Dexie` • `PWA`
+`Next.js` • `TypeScript` • `WebGPU` • `WebLLM` • `PWA`
 
 <br>
 
-[View Repository →](https://github.com/santheesh73/Orion)
+<a href="https://github.com/santheesh73/Orion">
+  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+</a>
 
 </td>
 <td width="50%" valign="top">
 
 ### 🌾 BHOOMI
-> **AI-powered agricultural intelligence & farmer assistance.**
+**AI agriculture & farmer intelligence system.**
 
-A voice-first agricultural intelligence platform empowering farmers with localized crop diagnostics, weather alerts, and market advisories.
+`Voice-First UI` • `Crop Disease Vision` • `Localized Alerts`
 
-- Voice-first multilingual conversational interface
-- Computer vision diagnostics for crop disease detection
-- Hyperlocal weather intelligence and advisory synthesis
-
-`Python` • `React` • `FastAPI` • `PyTorch` • `Gemini` • `Multimodal AI`
+`Python` • `React` • `FastAPI` • `PyTorch` • `Gemini`
 
 <br>
 
-[View Repository →](https://github.com/santheesh73/Bhoomi-SIH-Agri)
+<a href="https://github.com/santheesh73/Bhoomi-SIH-Agri">
+  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+</a>
 
 </td>
 </tr>
@@ -213,142 +180,21 @@ A voice-first agricultural intelligence platform empowering farmers with localiz
 <td colspan="2" valign="top">
 
 ### ⚡ MINCHAL
-> **Electricity bill intelligence & household energy audit.**
+**AI-assisted electricity bill & energy intelligence.**
 
-Converts electricity bill photos into an itemized, appliance-level energy audit combining Gemini Vision with deterministic calculations.
+`Bill Vision OCR` • `Deterministic Calculation Engine` • `ROI Recommendations`
 
-- Multimodal bill photo extraction via Gemini Vision OCR
-- 100% deterministic appliance math engine preventing hallucinations
-- Cost-ranked ROI recommendations localized in English and Tamil
-
-`React` • `TypeScript` • `Vite` • `FastAPI` • `Python` • `Gemini` • `PWA`
+`React` • `TypeScript` • `Vite` • `FastAPI` • `Python` • `Gemini Vision` • `PWA`
 
 <br>
 
-[View Repository →](https://github.com/santheesh73/Minchal-deploy)
+<a href="https://github.com/santheesh73/Minchal-deploy">
+  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+</a>
 
 </td>
 </tr>
 </table>
-
----
-
-## 🛠️ Technology Stack
-
-<div align="center">
-
-### Languages
-<img src="https://skillicons.dev/icons?i=python,typescript,javascript,html,css&perline=5" alt="Languages">
-
-<br>
-
-### Frontend
-<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind&perline=4" alt="Frontend Technologies">
-
-<br>
-
-### Backend
-<img src="https://skillicons.dev/icons?i=fastapi,python&perline=2" alt="Backend Technologies">
-
-<br>
-
-### AI & Machine Learning
-<img src="https://img.shields.io/badge/Generative_AI-8E44AD?style=for-the-badge&logo=openai&logoColor=white" alt="Generative AI">
-<img src="https://img.shields.io/badge/LLMs-Prompt_Engineering-111827?style=for-the-badge" alt="LLMs">
-<img src="https://img.shields.io/badge/RAG-Vector_Search-0F766E?style=for-the-badge" alt="RAG">
-<img src="https://img.shields.io/badge/AI_Agents-Orchestration-2563EB?style=for-the-badge" alt="AI Agents">
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
-
-<br><br>
-
-### Models & Platforms
-<img src="https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini">
-<img src="https://img.shields.io/badge/Google_Gemma-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemma">
-<img src="https://img.shields.io/badge/Groq_LLaMA-F55036?style=for-the-badge" alt="Groq LLaMA">
-<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face">
-<img src="https://img.shields.io/badge/WebLLM_/_WebGPU-Local_AI-3B82F6?style=for-the-badge" alt="WebLLM WebGPU">
-
-<br><br>
-
-### Databases
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,supabase,redis&perline=5" alt="Databases">
-<br>
-<img src="https://img.shields.io/badge/ChromaDB-Vector_Storage-E11D48?style=for-the-badge" alt="ChromaDB">
-<img src="https://img.shields.io/badge/IndexedDB_/_Dexie-Client_Storage-0EA5E9?style=for-the-badge" alt="IndexedDB">
-
-<br><br>
-
-### DevOps & Tools
-<img src="https://skillicons.dev/icons?i=docker,git,github,vercel,sentry&perline=5" alt="DevOps and Tools">
-<img src="https://img.shields.io/badge/Render-Cloud_Hosting-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render">
-
-</div>
-
----
-
-## ⚙️ Engineering Philosophy
-
-<div align="center">
-
-```text
-Problem ──► Understand ──► Build ──► Integrate AI ──► Test ──► Deploy ──► Improve
-```
-
-</div>
-
-> **AI should be part of a reliable software system, not the entire system.**  
-> Complex applications require combining AI perception and semantic extraction with deterministic calculations, rigorous validation, and intuitive user experiences.
-
----
-
-## 🔬 Engineering Interests
-
-<table>
-<tr>
-<th width="33%" align="center">🤖 AI SYSTEMS</th>
-<th width="33%" align="center">🔎 KNOWLEDGE SYSTEMS</th>
-<th width="33%" align="center">💻 PRODUCT ENGINEERING</th>
-</tr>
-<tr>
-<td valign="top">
-
-- Large Language Models (LLMs)
-- Autonomous AI Agents
-- Generative AI Applications
-- On-Device AI & WebGPU
-- Structured Output Extraction
-
-</td>
-<td valign="top">
-
-- Retrieval-Augmented Generation (RAG)
-- Vector Embeddings & Similarity Search
-- Document Intelligence & PDF Parsing
-- Semantic Codebase Analysis
-- Deterministic Verification Engines
-
-</td>
-<td valign="top">
-
-- React & Next.js Architecture
-- High-Throughput FastAPI Services
-- Relational & Document Databases
-- Offline-First PWA Systems
-- Resilient API Design
-
-</td>
-</tr>
-</table>
-
----
-
-## 🚀 Current Focus
-
-- 🧠 **LLM Engineering & Agents**: Production-grade agentic workflows and reliable reasoning systems.
-- 🔎 **High-Precision RAG**: Hybrid retrieval systems combining dense vector embeddings and deterministic verification.
-- ⚡ **On-Device AI**: Advancing browser-native model execution with WebGPU and zero-cloud privacy.
-- 📄 **Document Intelligence**: Structured multi-format extraction and compliance auditing.
-- 💻 **Full-Stack AI Products**: Building intuitive, useful end-to-end software.
 
 ---
 
@@ -385,25 +231,21 @@ Problem ──► Understand ──► Build ──► Integrate AI ──► Te
 
 <div align="center">
 
-I am always interested in collaborating on **AI/ML projects, developer tooling, full-stack systems, and hackathon builds**.
+**Let's build something useful.**
 
 <br>
 
 <a href="https://github.com/santheesh73">
-  <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile">
+  <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
 </a>
 <a href="https://github.com/santheesh73?tab=repositories">
-  <img src="https://img.shields.io/badge/GitHub-Repositories-0284C7?style=for-the-badge&logo=git&logoColor=white" alt="Repositories">
+  <img src="https://img.shields.io/badge/GitHub-Repositories-DC2626?style=for-the-badge&logo=git&logoColor=white" alt="Repositories" />
 </a>
 <a href="https://github.com/santheesh73?tab=stars">
-  <img src="https://img.shields.io/badge/GitHub-Starred_Projects-F59E0B?style=for-the-badge&logo=star&logoColor=white" alt="Starred Projects">
+  <img src="https://img.shields.io/badge/GitHub-Starred_Projects-F59E0B?style=for-the-badge&logo=star&logoColor=white" alt="Starred Projects" />
 </a>
 
-</div>
-
----
-
-<div align="center">
+<br><br>
 
 ### **Think Deeply. Build Deliberately. Ship Continuously.**
 
@@ -411,6 +253,6 @@ I am always interested in collaborating on **AI/ML projects, developer tooling, 
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0204,50:1A0509,100:DC2626&height=120&section=footer" width="100%" alt="Footer Wave" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0204,50:1A0509,100:DC2626&height=110&section=footer" width="100%" alt="Footer Wave" />
 
 </div>
