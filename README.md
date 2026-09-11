@@ -141,6 +141,9 @@ End-to-end applications built with modern reactive frontends and high-performanc
 <a href="https://github.com/santheesh73/HeartTune">
   <img src="https://img.shields.io/badge/View_Repository-DC2626?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
 </a>
+<a href="https://hearttune-adv.vercel.app">
+  <img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+</a>
 
 </td>
 <td width="50%" valign="top">
@@ -245,6 +248,9 @@ End-to-end applications built with modern reactive frontends and high-performanc
 
 <a href="https://github.com/santheesh73/Minchal-deploy">
   <img src="https://img.shields.io/badge/View_Repository-DC2626?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+</a>
+<a href="https://minchal-deploy.vercel.app">
+  <img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
 </a>
 
 </td>
