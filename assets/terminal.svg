@@ -1,0 +1,349 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 440" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="50%" stop-color="#0B111E"/>
+      <stop offset="100%" stop-color="#0D1527"/>
+    </linearGradient>
+
+    <!-- Header Gradient -->
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+
+    <!-- Scanline Gradient -->
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono {
+        font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, Monaco, Consolas, monospace;
+      }
+      
+      /* Global Animation Loop: 20 Seconds */
+      .state-1 { animation: s1 20s infinite ease-in-out; }
+      .state-2 { animation: s2 20s infinite ease-in-out; }
+      .state-3 { animation: s3 20s infinite ease-in-out; }
+      .state-4 { animation: s4 20s infinite ease-in-out; }
+      .state-5 { animation: s5 20s infinite ease-in-out; }
+
+      @keyframes s1 {
+        0% { opacity: 0; transform: translateY(6px); }
+        2%, 17% { opacity: 1; transform: translateY(0); }
+        19%, 100% { opacity: 0; transform: translateY(-6px); }
+      }
+      @keyframes s2 {
+        0%, 19% { opacity: 0; transform: translateY(6px); }
+        21%, 37% { opacity: 1; transform: translateY(0); }
+        39%, 100% { opacity: 0; transform: translateY(-6px); }
+      }
+      @keyframes s3 {
+        0%, 39% { opacity: 0; transform: translateY(6px); }
+        41%, 57% { opacity: 1; transform: translateY(0); }
+        59%, 100% { opacity: 0; transform: translateY(-6px); }
+      }
+      @keyframes s4 {
+        0%, 59% { opacity: 0; transform: translateY(6px); }
+        61%, 77% { opacity: 1; transform: translateY(0); }
+        79%, 100% { opacity: 0; transform: translateY(-6px); }
+      }
+      @keyframes s5 {
+        0%, 79% { opacity: 0; transform: translateY(6px); }
+        81%, 97% { opacity: 1; transform: translateY(0); }
+        99%, 100% { opacity: 0; transform: translateY(-6px); }
+      }
+
+      /* Scanline motion */
+      .scanline {
+        animation: scan 4s linear infinite;
+      }
+      @keyframes scan {
+        0% { transform: translateY(45px); opacity: 0; }
+        15% { opacity: 0.4; }
+        85% { opacity: 0.4; }
+        100% { transform: translateY(430px); opacity: 0; }
+      }
+
+      /* Cursor blink */
+      .cursor {
+        animation: blink 0.8s infinite;
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      /* Pulse elements */
+      .pulse {
+        animation: pulse 1.8s infinite ease-in-out;
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- Terminal Window Frame -->
+  <rect x="5" y="5" width="840" height="430" rx="10" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Title Bar -->
+  <rect x="5" y="5" width="840" height="38" rx="10" fill="url(#headerGrad)"/>
+  <line x1="5" y1="43" x2="845" y2="43" stroke="#334155" stroke-width="1"/>
+
+  <!-- Window Controls -->
+  <circle cx="28" cy="24" r="5.5" fill="#EF4444"/>
+  <circle cx="46" cy="24" r="5.5" fill="#F59E0B"/>
+  <circle cx="64" cy="24" r="5.5" fill="#10B981"/>
+
+  <!-- Window Header Title -->
+  <text x="425" y="28" text-anchor="middle" fill="#94A3B8" font-size="12" class="mono" font-weight="600">
+    santheesh@github:~/ai-engineering-lab (zsh)
+  </text>
+  <text x="825" y="28" text-anchor="end" fill="#475569" font-size="11" class="mono">
+    bash • 850x440
+  </text>
+
+  <!-- Animated Scanline -->
+  <rect class="scanline" x="6" y="0" width="838" height="2" fill="url(#scanGrad)"/>
+
+  <!-- Inner Ambient Border Glow -->
+  <rect x="15" y="55" width="820" height="365" rx="6" fill="none" stroke="#1E293B" stroke-width="0.8" stroke-dasharray="4,4" opacity="0.6"/>
+
+  <!-- ============================================================== -->
+  <!-- STATE 1: BOOT & INITIALIZATION (0s - 4s)                       -->
+  <!-- ============================================================== -->
+  <g class="state-1">
+    <!-- Prompt -->
+    <text x="32" y="88" fill="#10B981" font-size="13.5" class="mono" font-weight="bold">santheesh@github</text>
+    <text x="175" y="88" fill="#64748B" font-size="13.5" class="mono">:</text>
+    <text x="185" y="88" fill="#38BDF8" font-size="13.5" class="mono">~/lab</text>
+    <text x="230" y="88" fill="#F43F5E" font-size="13.5" class="mono" font-weight="bold">$</text>
+    <text x="245" y="88" fill="#F8FAFC" font-size="13.5" class="mono">./init --profile</text>
+    <rect class="cursor" x="382" y="74" width="8" height="16" fill="#38BDF8"/>
+
+    <!-- Output lines -->
+    <text x="32" y="125" fill="#64748B" font-size="12" class="mono">&gt; [KERNEL] Initializing AI Engineering workspace runtime...</text>
+    <text x="32" y="152" fill="#38BDF8" font-size="12" class="mono">&gt; [MODULES] Loading local WebGPU sharding &amp; LLM reasoning engines...</text>
+    <text x="32" y="179" fill="#818CF8" font-size="12" class="mono">&gt; [VECTORS] Mounting ChromaDB embeddings &amp; document intelligence index...</text>
+    <text x="32" y="206" fill="#A855F7" font-size="12" class="mono">&gt; [AGENTS]  Configuring multi-agent orchestration pipelines...</text>
+    
+    <g transform="translate(32, 230)">
+      <rect x="0" y="0" width="786" height="52" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="26" r="4" fill="#10B981" class="pulse"/>
+      <text x="36" y="30" fill="#F8FAFC" font-size="12" class="mono" font-weight="bold">CORE SUBSYSTEMS ONLINE</text>
+      <text x="250" y="30" fill="#64748B" font-size="11" class="mono">| Memory: 64MB · Engine: v2.4.0 · Precision: FP16</text>
+      <text x="765" y="30" text-anchor="end" fill="#10B981" font-size="11" class="mono" font-weight="bold">[READY]</text>
+    </g>
+
+    <text x="32" y="325" fill="#64748B" font-size="12" class="mono">&gt; System initialized. Awaiting scheduled task execution...</text>
+    <text x="32" y="358" fill="#38BDF8" font-size="13" class="mono" font-weight="bold">STATUS: WORKSPACE READY</text>
+  </g>
+
+  <!-- ============================================================== -->
+  <!-- STATE 2: SYSTEM SCAN (4s - 8s)                                 -->
+  <!-- ============================================================== -->
+  <g class="state-2">
+    <!-- Prompt -->
+    <text x="32" y="88" fill="#10B981" font-size="13.5" class="mono" font-weight="bold">santheesh@github</text>
+    <text x="175" y="88" fill="#64748B" font-size="13.5" class="mono">:</text>
+    <text x="185" y="88" fill="#38BDF8" font-size="13.5" class="mono">~/lab</text>
+    <text x="230" y="88" fill="#F43F5E" font-size="13.5" class="mono" font-weight="bold">$</text>
+    <text x="245" y="88" fill="#F8FAFC" font-size="13.5" class="mono">./scan --capabilities</text>
+    <rect class="cursor" x="432" y="74" width="8" height="16" fill="#38BDF8"/>
+
+    <text x="32" y="122" fill="#64748B" font-size="12" class="mono">&gt; Scanning engineering capabilities &amp; verified stacks...</text>
+
+    <!-- Scan bars -->
+    <g transform="translate(32, 140)">
+      <!-- Item 1 -->
+      <text x="0" y="16" fill="#F8FAFC" font-size="12" class="mono">AI ENGINEERING</text>
+      <text x="170" y="16" fill="#38BDF8" font-size="12" class="mono">████████████████</text>
+      <text x="320" y="16" fill="#10B981" font-size="11" class="mono">FOUND: LLMs, Fine-tuning, Runtimes</text>
+
+      <!-- Item 2 -->
+      <text x="0" y="44" fill="#F8FAFC" font-size="12" class="mono">FULL STACK</text>
+      <text x="170" y="44" fill="#38BDF8" font-size="12" class="mono">███████████████░</text>
+      <text x="320" y="44" fill="#10B981" font-size="11" class="mono">FOUND: React, Next.js, FastAPI, SQL</text>
+
+      <!-- Item 3 -->
+      <text x="0" y="72" fill="#F8FAFC" font-size="12" class="mono">RAG ARCHITECTURES</text>
+      <text x="170" y="72" fill="#38BDF8" font-size="12" class="mono">██████████████░░</text>
+      <text x="320" y="72" fill="#10B981" font-size="11" class="mono">FOUND: Vector Embeddings, Hybrid Search</text>
+
+      <!-- Item 4 -->
+      <text x="0" y="100" fill="#F8FAFC" font-size="12" class="mono">AI AGENT FLOWS</text>
+      <text x="170" y="100" fill="#38BDF8" font-size="12" class="mono">██████████████░░</text>
+      <text x="320" y="100" fill="#10B981" font-size="11" class="mono">FOUND: LangGraph, Multi-Agent Systems</text>
+
+      <!-- Item 5 -->
+      <text x="0" y="128" fill="#F8FAFC" font-size="12" class="mono">ON-DEVICE AI</text>
+      <text x="170" y="128" fill="#38BDF8" font-size="12" class="mono">████████████████</text>
+      <text x="320" y="128" fill="#10B981" font-size="11" class="mono">FOUND: WebLLM, WebGPU, Local PWA</text>
+    </g>
+
+    <text x="32" y="315" fill="#64748B" font-size="12" class="mono">&gt; 5 of 5 core competencies verified with repository evidence.</text>
+    <text x="32" y="348" fill="#10B981" font-size="13" class="mono" font-weight="bold">SCAN COMPLETE: ALL ENGINES OPERATIONAL</text>
+  </g>
+
+  <!-- ============================================================== -->
+  <!-- STATE 3: AI PROCESSING (8s - 12s)                              -->
+  <!-- ============================================================== -->
+  <g class="state-3">
+    <!-- Prompt -->
+    <text x="32" y="88" fill="#10B981" font-size="13.5" class="mono" font-weight="bold">santheesh@github</text>
+    <text x="175" y="88" fill="#64748B" font-size="13.5" class="mono">:</text>
+    <text x="185" y="88" fill="#38BDF8" font-size="13.5" class="mono">~/lab</text>
+    <text x="230" y="88" fill="#F43F5E" font-size="13.5" class="mono" font-weight="bold">$</text>
+    <text x="245" y="88" fill="#F8FAFC" font-size="13.5" class="mono">./process --matrix</text>
+    <rect class="cursor" x="410" y="74" width="8" height="16" fill="#38BDF8"/>
+
+    <text x="32" y="122" fill="#64748B" font-size="12" class="mono">&gt; Streaming neural weights &amp; semantic routing matrix...</text>
+
+    <g transform="translate(32, 142)">
+      <!-- Line 1 -->
+      <text x="0" y="16" fill="#818CF8" font-size="12" class="mono" font-weight="bold">AI REASONING</text>
+      <text x="160" y="16" fill="#10B981" font-size="14" class="mono">● ● ● ● ●</text>
+      <text x="270" y="16" fill="#94A3B8" font-size="11" class="mono">[ACTIVE]</text>
+      <text x="360" y="16" fill="#64748B" font-size="11" class="mono">Throughput: 54.2 tok/s · Latency: 18ms</text>
+
+      <!-- Line 2 -->
+      <text x="0" y="44" fill="#818CF8" font-size="12" class="mono" font-weight="bold">RAG RETRIEVAL</text>
+      <text x="160" y="44" fill="#10B981" font-size="14" class="mono">● ● ● ● ○</text>
+      <text x="270" y="44" fill="#94A3B8" font-size="11" class="mono">[INDEXING]</text>
+      <text x="360" y="44" fill="#64748B" font-size="11" class="mono">Dense Embeddings + BM25 Precision Gate</text>
+
+      <!-- Line 3 -->
+      <text x="0" y="72" fill="#818CF8" font-size="12" class="mono" font-weight="bold">AGENT GRAPH</text>
+      <text x="160" y="72" fill="#10B981" font-size="14" class="mono">● ● ● ● ●</text>
+      <text x="270" y="72" fill="#94A3B8" font-size="11" class="mono">[ROUTING]</text>
+      <text x="360" y="72" fill="#64748B" font-size="11" class="mono">LangGraph State Machine: Consensus Met</text>
+
+      <!-- Line 4 -->
+      <text x="0" y="100" fill="#818CF8" font-size="12" class="mono" font-weight="bold">LOCAL WEBGPU</text>
+      <text x="160" y="100" fill="#10B981" font-size="14" class="mono">● ● ● ● ○</text>
+      <text x="270" y="100" fill="#94A3B8" font-size="11" class="mono">[RUNNING]</text>
+      <text x="360" y="100" fill="#64748B" font-size="11" class="mono">Zero Cloud Inference · Browser Sandbox</text>
+
+      <!-- Line 5 -->
+      <text x="0" y="128" fill="#818CF8" font-size="12" class="mono" font-weight="bold">DETERMINISTIC</text>
+      <text x="160" y="128" fill="#10B981" font-size="14" class="mono">● ● ● ● ●</text>
+      <text x="270" y="128" fill="#94A3B8" font-size="11" class="mono">[CHECKED]</text>
+      <text x="360" y="128" fill="#64748B" font-size="11" class="mono">Math &amp; Compliance Engines Hallucination-Free</text>
+    </g>
+
+    <text x="32" y="318" fill="#64748B" font-size="12" class="mono">&gt; Computational load balanced across client and worker threads.</text>
+    <text x="32" y="350" fill="#38BDF8" font-size="13" class="mono" font-weight="bold">STATUS: PROCESSING OPTIMAL</text>
+  </g>
+
+  <!-- ============================================================== -->
+  <!-- STATE 4: BUILD VERIFIED PROJECTS (12s - 16s)                   -->
+  <!-- ============================================================== -->
+  <g class="state-4">
+    <!-- Prompt -->
+    <text x="32" y="88" fill="#10B981" font-size="13.5" class="mono" font-weight="bold">santheesh@github</text>
+    <text x="175" y="88" fill="#64748B" font-size="13.5" class="mono">:</text>
+    <text x="185" y="88" fill="#38BDF8" font-size="13.5" class="mono">~/lab</text>
+    <text x="230" y="88" fill="#F43F5E" font-size="13.5" class="mono" font-weight="bold">$</text>
+    <text x="245" y="88" fill="#F8FAFC" font-size="13.5" class="mono">./build --targets=projects</text>
+    <rect class="cursor" x="488" y="74" width="8" height="16" fill="#38BDF8"/>
+
+    <text x="32" y="118" fill="#64748B" font-size="12" class="mono">&gt; Compiling production builds for featured repositories...</text>
+
+    <g transform="translate(32, 134)" font-size="11.5" class="mono">
+      <text x="0" y="16" fill="#10B981">✓ [01/07]</text>
+      <text x="75" y="16" fill="#F8FAFC" font-weight="bold">HeartTune</text>
+      <text x="175" y="16" fill="#64748B">──► Premium Music Streaming PWA</text>
+      <text x="680" y="16" fill="#10B981" font-weight="bold">[PASS]</text>
+
+      <text x="0" y="38" fill="#10B981">✓ [02/07]</text>
+      <text x="75" y="38" fill="#F8FAFC" font-weight="bold">NISF</text>
+      <text x="175" y="38" fill="#64748B">──► AI Creative Intelligence Platform</text>
+      <text x="680" y="38" fill="#10B981" font-weight="bold">[PASS]</text>
+
+      <text x="0" y="60" fill="#10B981">✓ [03/07]</text>
+      <text x="75" y="60" fill="#F8FAFC" font-weight="bold">AHAL</text>
+      <text x="175" y="60" fill="#64748B">──► AI Software Intelligence &amp; Architecture Q&amp;A</text>
+      <text x="680" y="60" fill="#10B981" font-weight="bold">[PASS]</text>
+
+      <text x="0" y="82" fill="#10B981">✓ [04/07]</text>
+      <text x="75" y="82" fill="#F8FAFC" font-weight="bold">PRYSM</text>
+      <text x="175" y="82" fill="#64748B">──► Continuous Pre-Audit Compliance AI</text>
+      <text x="680" y="82" fill="#10B981" font-weight="bold">[PASS]</text>
+
+      <text x="0" y="104" fill="#10B981">✓ [05/07]</text>
+      <text x="75" y="104" fill="#F8FAFC" font-weight="bold">Orion</text>
+      <text x="175" y="104" fill="#64748B">──► Offline-First On-Device AI Assistant</text>
+      <text x="680" y="104" fill="#10B981" font-weight="bold">[PASS]</text>
+
+      <text x="0" y="126" fill="#10B981">✓ [06/07]</text>
+      <text x="75" y="126" fill="#F8FAFC" font-weight="bold">BHOOMI</text>
+      <text x="175" y="126" fill="#64748B">──► Voice-First AgriTech Farmer Intelligence</text>
+      <text x="680" y="126" fill="#10B981" font-weight="bold">[PASS]</text>
+
+      <text x="0" y="148" fill="#10B981">✓ [07/07]</text>
+      <text x="75" y="148" fill="#F8FAFC" font-weight="bold">MINCHAL</text>
+      <text x="175" y="148" fill="#64748B">──► Electricity Bill Energy Audit Engine</text>
+      <text x="680" y="148" fill="#10B981" font-weight="bold">[PASS]</text>
+    </g>
+
+    <text x="32" y="328" fill="#64748B" font-size="12" class="mono">&gt; Built 7 of 7 projects with zero bundle warnings.</text>
+    <text x="32" y="358" fill="#10B981" font-size="13" class="mono" font-weight="bold">BUILD SUCCESS: ARTIFACTS LINKED &amp; VERIFIED</text>
+  </g>
+
+  <!-- ============================================================== -->
+  <!-- STATE 5: DEPLOY & LIVE STATUS (16s - 20s)                      -->
+  <!-- ============================================================== -->
+  <g class="state-5">
+    <!-- Prompt -->
+    <text x="32" y="88" fill="#10B981" font-size="13.5" class="mono" font-weight="bold">santheesh@github</text>
+    <text x="175" y="88" fill="#64748B" font-size="13.5" class="mono">:</text>
+    <text x="185" y="88" fill="#38BDF8" font-size="13.5" class="mono">~/lab</text>
+    <text x="230" y="88" fill="#F43F5E" font-size="13.5" class="mono" font-weight="bold">$</text>
+    <text x="245" y="88" fill="#F8FAFC" font-size="13.5" class="mono">./deploy --status</text>
+    <rect class="cursor" x="402" y="74" width="8" height="16" fill="#38BDF8"/>
+
+    <text x="32" y="120" fill="#64748B" font-size="12" class="mono">&gt; Connecting to production endpoints &amp; runtime services...</text>
+
+    <g transform="translate(32, 138)">
+      <rect x="0" y="0" width="786" height="120" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      
+      <text x="24" y="28" fill="#94A3B8" font-size="12" class="mono" font-weight="bold">SYSTEM STATUS</text>
+      <text x="762" y="28" text-anchor="end" fill="#10B981" font-size="12" class="mono" font-weight="bold">[LIVE]</text>
+      <line x1="24" y1="38" x2="762" y2="38" stroke="#1E293B" stroke-width="1"/>
+
+      <text x="24" y="60" fill="#CBD5E1" font-size="11.5" class="mono">AI SYSTEMS RUNTIME</text>
+      <text x="280" y="60" fill="#10B981" font-size="11.5" class="mono">● ONLINE</text>
+      <text x="420" y="60" fill="#CBD5E1" font-size="11.5" class="mono">FULL STACK DEPLOY</text>
+      <text x="762" y="60" text-anchor="end" fill="#10B981" font-size="11.5" class="mono">● ONLINE</text>
+
+      <text x="24" y="88" fill="#CBD5E1" font-size="11.5" class="mono">RAG &amp; VECTOR SEARCH</text>
+      <text x="280" y="88" fill="#10B981" font-size="11.5" class="mono">● ONLINE</text>
+      <text x="420" y="88" fill="#CBD5E1" font-size="11.5" class="mono">BUILD PIPELINE</text>
+      <text x="762" y="88" text-anchor="end" fill="#10B981" font-size="11.5" class="mono">● ACTIVE</text>
+    </g>
+
+    <g transform="translate(32, 280)">
+      <rect x="0" y="0" width="786" height="42" rx="6" fill="#1E1B4B" stroke="#4338CA" stroke-width="1" opacity="0.6"/>
+      <circle cx="20" cy="21" r="5" fill="#EF4444" class="pulse"/>
+      <text x="36" y="25" fill="#F8FAFC" font-size="12.5" class="mono" font-weight="bold">STATUS: BUILDING &amp; SHIPPING CONTINUOUSLY</text>
+      <text x="765" y="25" text-anchor="end" fill="#A5B4FC" font-size="11" class="mono">Cycle restarting in 2s...</text>
+    </g>
+
+    <text x="32" y="358" fill="#64748B" font-size="11.5" class="mono">&gt; santheesh@github:~$ ready for next engineering task_</text>
+  </g>
+</svg>

@@ -31,19 +31,9 @@ Focused on **Generative AI**, **LLMs**, **RAG**, **AI Agents**, **On-Device AI**
 
 ---
 
-```text
-┌──────────────────────────────────────┐
-│ santheesh@github:~$ ./status         │
-│                                      │
-│ AI Engineering    ██████████         │
-│ Full Stack        █████████          │
-│ RAG               ████████           │
-│ Agents            ████████           │
-│ Building          ██████████         │
-│                                      │
-│ status: BUILDING                     │
-└──────────────────────────────────────┘
-```
+<div align="center">
+  <img src="./assets/terminal.svg" alt="Santheesh S - AI Engineering Lab Terminal Status (Boot ➔ Scan ➔ Process ➔ Build ➔ Deploy)" width="100%" />
+</div>
 
 ---
 
