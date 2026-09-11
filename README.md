@@ -139,7 +139,7 @@ End-to-end applications built with modern reactive frontends and high-performanc
 <br>
 
 <a href="https://github.com/santheesh73/HeartTune">
-  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+  <img src="https://img.shields.io/badge/View_Repository-DC2626?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
 </a>
 
 </td>
@@ -155,7 +155,7 @@ End-to-end applications built with modern reactive frontends and high-performanc
 <br>
 
 <a href="https://github.com/santheesh73/NISF_V2">
-  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+  <img src="https://img.shields.io/badge/View_Repository-DC2626?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
 </a>
 
 </td>
@@ -174,7 +174,7 @@ End-to-end applications built with modern reactive frontends and high-performanc
 <br>
 
 <a href="https://github.com/santheesh73/AHAL-V2">
-  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+  <img src="https://img.shields.io/badge/View_Repository-DC2626?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
 </a>
 
 </td>
@@ -190,7 +190,7 @@ End-to-end applications built with modern reactive frontends and high-performanc
 <br>
 
 <a href="https://github.com/santheesh73/PRYSM---Continuous-AI-Compilance-Operating-System">
-  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+  <img src="https://img.shields.io/badge/View_Repository-DC2626?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
 </a>
 
 </td>
@@ -209,7 +209,7 @@ End-to-end applications built with modern reactive frontends and high-performanc
 <br>
 
 <a href="https://github.com/santheesh73/Orion">
-  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+  <img src="https://img.shields.io/badge/View_Repository-DC2626?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
 </a>
 
 </td>
@@ -225,7 +225,7 @@ End-to-end applications built with modern reactive frontends and high-performanc
 <br>
 
 <a href="https://github.com/santheesh73/Bhoomi-SIH-Agri">
-  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+  <img src="https://img.shields.io/badge/View_Repository-DC2626?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
 </a>
 
 </td>
@@ -244,7 +244,7 @@ End-to-end applications built with modern reactive frontends and high-performanc
 <br>
 
 <a href="https://github.com/santheesh73/Minchal-deploy">
-  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+  <img src="https://img.shields.io/badge/View_Repository-DC2626?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
 </a>
 
 </td>
