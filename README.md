@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080E1A,35:0F172A,70:1E1B4B,100:0284C7&height=220&section=header&text=SANTHEESH%20S&fontSize=52&fontColor=ffffff&fontAlignY=42&desc=AI%20ENGINEER%20%E2%80%A2%20FULL-STACK%20DEVELOPER%20%E2%80%A2%20BUILDER&descAlignY=64&descSize=16" width="100%" alt="Header Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0204,35:1A0509,70:580F16,100:DC2626&height=220&section=header&text=SANTHEESH%20S&fontSize=52&fontColor=ffffff&fontAlignY=42&desc=AI%20ENGINEER%20%E2%80%A2%20FULL-STACK%20DEVELOPER%20%E2%80%A2%20BUILDER&descAlignY=64&descSize=16" width="100%" alt="Header Banner" />
 
 <br>
 
@@ -411,6 +411,6 @@ I am always interested in collaborating on **AI/ML projects, developer tooling, 
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080E1A,50:0F172A,100:0284C7&height=120&section=footer" width="100%" alt="Footer Wave" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0204,50:1A0509,100:DC2626&height=120&section=footer" width="100%" alt="Footer Wave" />
 
 </div>
