@@ -4,13 +4,13 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&height=50&lines=%3E+initializing+AI+Engineering+Lab...;%3E+architecting+autonomous+agents+%26+RAG;%3E+engineering+on-device+AI+systems;%3E+shipping+full-stack+intelligence;%3E+status%3A+BUILDING" alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&height=50&lines=%3E+initializing+profile...;%3E+loading+AI+systems...;%3E+loading+projects...;%3E+loading+engineering+stack...;%3E+status%3A+BUILDING" alt="Typing Animation" />
 
 <br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-santheesh73-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/santheesh73)
-[![Repositories](https://img.shields.io/badge/Repositories-11_Projects-0284C7?style=for-the-badge&logo=git&logoColor=white)](https://github.com/santheesh73?tab=repositories)
-[![Profile Views](https://komarev.com/ghpvc/?username=santheesh73&style=for-the-badge&label=LAB%20VISITORS&color=38BDF8)](https://github.com/santheesh73)
+[![Repositories](https://img.shields.io/badge/Repositories-Public_Projects-0284C7?style=for-the-badge&logo=git&logoColor=white)](https://github.com/santheesh73?tab=repositories)
+[![Profile Views](https://komarev.com/ghpvc/?username=santheesh73&style=for-the-badge&label=VISITORS&color=38BDF8)](https://github.com/santheesh73)
 
 <br><br>
 
@@ -27,20 +27,17 @@
 ---
 
 ```text
-┌── [santheesh@lab:~$ ./system_status] ────────────────────────────────────────┐
-│                                                                              │
-│  OPERATOR   : SANTHEESH S                                                    │
-│  ROLE       : AI Engineer • Full-Stack Developer • Builder                   │
-│  FOCUS      : On-Device AI • RAG • Multi-Agent Systems • Full-Stack APIs     │
-│  LAB STATUS : OPERATIONAL [Building & Shipping]                              │
-│                                                                              │
-│  ACTIVE CORE RUNTIMES:                                                       │
-│  ├─ [01] WebLLM / Browser-Native WebGPU Inference Engine                     │
-│  ├─ [02] Multi-Agent Orchestration & Deterministic Verification (LangGraph) │
-│  ├─ [03] Deterministic Financial & Energy Computation Pipelines             │
-│  └─ [04] Document Parsing, Semantic Vector Search & OCR Ingestion            │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────┐
+│ santheesh@github:~$ ./status         │
+│                                      │
+│ AI Engineering    ██████████         │
+│ Full Stack        █████████          │
+│ RAG               ████████           │
+│ Agents            ████████           │
+│ Building          ██████████         │
+│                                      │
+│ status: BUILDING                     │
+└──────────────────────────────────────┘
 ```
 
 ---
@@ -57,42 +54,34 @@ My engineering centers on building systems where **AI reasons and extracts**, **
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="20%" valign="top">
 
-### 🤖 Generative AI & LLMs
-Building production-grade applications that leverage frontier LLMs for structured data extraction, contextual reasoning, and intelligent task synthesis.
-
-</td>
-<td width="33%" valign="top">
-
-### ⚡ On-Device & Local AI
-Engineering zero-cloud, browser-native AI workflows with WebGPU, WebLLM, and client-side storage for absolute privacy and zero compute costs.
+### 🤖 Generative AI
+Frontier LLM applications focused on reasoning, structured data extraction, and workflow synthesis.
 
 </td>
-<td width="33%" valign="top">
+<td width="20%" valign="top">
 
-### 🔎 RAG & Knowledge Systems
-Developing document intelligence pipelines that parse, chunk, embed, and semantically retrieve high-density technical and legal assets.
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-### 🧠 Multi-Agent Systems
-Orchestrating specialized, role-scoped agent graphs where autonomous agents audit, cross-examine, and auto-generate code patches.
+### 🧠 LLM Applications
+Domain-specific intelligent products combining foundation models with deterministic software logic.
 
 </td>
-<td width="33%" valign="top">
+<td width="20%" valign="top">
 
-### ⚙️ Deterministic AI Engines
-Creating hybrid systems where AI handles unstructured perception while 100% deterministic engines execute math, audits, and business logic.
+### 🔎 RAG & Knowledge
+Production retrieval architectures with vector embeddings, semantic search, and verified citations.
 
 </td>
-<td width="33%" valign="top">
+<td width="20%" valign="top">
 
-### 💻 Modern Full-Stack Systems
-Crafting end-to-end applications with reactive frontends (Next.js, React, Tailwind) and high-throughput backend APIs (FastAPI, Python, MongoDB, Postgres).
+### ⚡ On-Device AI
+Zero-cloud local inference running in browsers via WebGPU and WebLLM for complete privacy.
+
+</td>
+<td width="20%" valign="top">
+
+### 💻 Full-Stack Products
+End-to-end web apps and APIs built with React, Next.js, and high-performance FastAPI backends.
 
 </td>
 </tr>
@@ -102,137 +91,145 @@ Crafting end-to-end applications with reactive frontends (Next.js, React, Tailwi
 
 ## 🌟 Featured Projects
 
-<br>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 01. 🛰️ Orion — Private AI. Zero Cloud. Infinite Possibilities.
-> **Offline-first, browser-native AI assistant running local LLM inference over WebGPU.**  
-> *Built for OSDHack 2026 | On-Device AI*
+### 🎵 HeartTune
+> **Premium music streaming Progressive Web App.**
 
-```text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  ORION RUNTIME                                                               │
-│  Browser Client ──► Web Workers ──► WebLLM / WebGPU ──► Dexie (IndexedDB)    │
-│  100% Offline • Zero Remote API Calls • Local Document Intelligence          │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
+A modern music streaming experience built for high audio fidelity, seamless playback, and offline listening.
 
-- **Local LLM Execution**: Browser-native local inference powered by `@mlc-ai/web-llm` and WebGPU acceleration.
-- **Worker Isolation**: Worker-isolated model generation and document parsing to keep the UI smooth and responsive.
-- **Private Document Intelligence**: Client-side document upload, chunking, parsing, and document-grounded chat without uploading bytes to any third party.
-- **Offline-First PWA**: Installable Progressive Web App with service worker cache controls, local settings, and persistent Dexie/IndexedDB storage.
-- **Hardware Diagnostics**: Real-time browser capability detection (WebGPU, WASM, memory limits) and live performance metrics (tokens/sec, latency, memory).
+- High-fidelity streaming with custom playlist management
+- Offline-first PWA caching for uninterrupted listening
+- Responsive, low-latency audio player UI
 
-**Tech Stack:** `Next.js` • `React` • `TypeScript` • `Tailwind CSS` • `WebLLM` • `WebGPU` • `Dexie` • `IndexedDB` • `Web Workers` • `PWA`
+`Next.js` • `React` • `TypeScript` • `Tailwind CSS` • `Supabase` • `Redis`
 
 <br>
 
-<a href="https://github.com/santheesh73/Orion">
-  <img src="https://img.shields.io/badge/View_Repository-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="View Orion Repo">
-</a>
+[View Repository →](https://github.com/santheesh73/HeartTune)
 
----
+</td>
+<td width="50%" valign="top">
 
-### 02. ⚡ MINCHAL — Electricity Bill to Itemized Household Energy Audit
-> **AI-assisted household energy audit platform converting power bills into appliance-level consumption insights.**  
-> *Built with AI: Tech for Good 2026 — GDG Coimbatore*
+### 🧠 NISF
+> **AI creative intelligence & content optimization platform.**
 
-> [!NOTE]
-> **Core Architecture:** *"Gemini reads the bill. The deterministic engine calculates. Gemini explains."*
+A full-stack AI platform designed to generate, analyze, and optimize marketing creative assets across modalities.
 
-- **Multimodal Bill Extraction**: Ingests electricity bill photos via Gemini Vision OCR to extract tariff slabs, consumption units, and billing periods.
-- **Deterministic Math Engine**: 100% deterministic calculation engine computing kWh per appliance using wattage tables, star ratings, and degradation curves—eliminating numerical hallucinations.
-- **Bill Normalization**: Mathematically scales individual appliance estimates to match the exact bill total.
-- **ROI-Driven Action Plans**: Automatically prioritizes household maintenance and habit adjustments by cost savings and payback period.
-- **Bilingual Accessibility**: Full English and Tamil (தமிழ்) localized interface with transparent calculation breakdowns.
+- Multimodal content generation (text, image, audio, video)
+- Intelligent performance analysis and asset scoring
+- High-throughput asynchronous generation pipelines
 
-**Tech Stack:** `React` • `TypeScript` • `Vite` • `Tailwind CSS` • `FastAPI` • `Python` • `Pydantic` • `Gemini Vision` • `PWA` • `Vercel`
+`FastAPI` • `Python` • `Next.js` • `PostgreSQL` • `Redis` • `Groq` • `Hugging Face`
 
 <br>
 
-<a href="https://github.com/santheesh73/Minchal-deploy">
-  <img src="https://img.shields.io/badge/View_Repository-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="View Minchal Repo">
-</a>
-<a href="https://minchal-deploy.vercel.app/">
-  <img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Minchal Live Demo">
-</a>
+[View Repository →](https://github.com/santheesh73/NISF_V2)
 
----
+</td>
+</tr>
 
-### 03. 💎 PRYSM — Continuous AI Compliance & Pre-Audit Operating System
-> **AI-powered audit intelligence platform detecting compliance gaps, reconciliation mismatches, and audit risks.**  
-> *"Know your audit gaps before the auditor does."*
+<tr>
+<td width="50%" valign="top">
 
-- **Financial Document Ingestion**: Automated ingestion and OCR extraction from invoices, GST returns, bank statements, and ROC filings.
-- **Hybrid Extraction Pipeline**: Combines OCR (Tesseract, PyMuPDF) with LLM entity extraction to structure messy financial documents.
-- **Deterministic Compliance Checks**: Automated checks for tax computation mismatches, missing invoices, and unmatched ledger entries.
-- **Semantic Financial Search**: ChromaDB-backed vector store for contextual retrieval across multi-year statutory documents.
-- **Audit-Ready Reporting**: Automated risk classification scoring and professional export of audit findings for CA firms and CFOs.
+### 🔍 AHAL
+> **AI software intelligence & codebase understanding platform.**
 
-**Tech Stack:** `React` • `Next.js` • `FastAPI` • `Python` • `PyMuPDF` • `Tesseract` • `ChromaDB` • `PostgreSQL` • `SQLite`
+Transforms repositories, technical documentation, and codebases into actionable developer insights powered by Gemma.
+
+- Automated codebase ingestion and structural analysis
+- Subsystem dependency mapping and architecture extraction
+- Interactive conversational technical analyst grounded in code
+
+`React` • `TypeScript` • `FastAPI` • `Python` • `MongoDB` • `Gemma`
 
 <br>
 
-<a href="https://github.com/santheesh73/PRYSM---Continuous-AI-Compilance-Operating-System">
-  <img src="https://img.shields.io/badge/View_Repository-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="View PRYSM Repo">
-</a>
+[View Repository →](https://github.com/santheesh73/AHAL-V2)
 
----
+</td>
+<td width="50%" valign="top">
 
-### 04. 🧠 AHAL AI V2 — Software Intelligence Platform
-> **Transforming repositories, technical documentation, and codebases into actionable developer knowledge.**  
-> *"Intelligence That Brings Light"*
+### 💎 PRYSM
+> **AI audit intelligence & continuous compliance platform.**
 
-- **Multi-Source Codebase Ingestion**: Automatically analyzes repositories, source files, and project assets to eliminate hours of codebase onboarding.
-- **Architecture Understanding**: Maps subsystem boundaries, data flow pipelines, and component dependencies.
-- **Gemma-Powered Intelligence**: Uses Google Gemma to analyze codebase structures and generate technical summaries.
-- **Conversational Project Analyst**: Interactive chat interface grounded in the repository's source code and documentation.
-- **Executive Technical Reports**: Generates structured project analysis, problem statements, and scalability evaluations.
+Detects financial compliance gaps, reconciliation mismatches, and audit risks from statutory filings before formal audits.
 
-**Tech Stack:** `React` • `TypeScript` • `Tailwind CSS` • `FastAPI` • `Python` • `MongoDB` • `Gemma` • `JWT` • `Docker`
+- Ingestion of invoices, GST returns, and financial reports
+- Deterministic compliance checks and mismatch detection
+- Semantic document search across multi-year statutory records
+
+`Next.js` • `FastAPI` • `Python` • `PyMuPDF` • `ChromaDB` • `PostgreSQL`
 
 <br>
 
-<a href="https://github.com/santheesh73/AHAL-V2">
-  <img src="https://img.shields.io/badge/View_Repository-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="View AHAL Repo">
-</a>
+[View Repository →](https://github.com/santheesh73/PRYSM---Continuous-AI-Compilance-Operating-System)
 
----
+</td>
+</tr>
 
-### 05. 🔥 Ignition — Multi-Agent Code Review System
-> **Specialized multi-agent panel for pull request analysis, security auditing, and automated patching.**  
-> *"Your PRs just got faster than your reviewers. This is how you catch up."*
+<tr>
+<td width="50%" valign="top">
 
-- **Multi-Agent Review Panel**: Replaces shallow single-prompt reviews with three parallel specialist agents: *Architecture Inspector*, *Logic & Chaos Agent*, and *Security & Supply Chain Auditor*.
-- **The Critic Gate**: Dedicated verification agent that fact-checks every finding against the real codebase AST, scoring overall PR health.
-- **AST Analysis Engine**: Deep syntax and structural validation powered by Bun and `ts-morph`.
-- **Auto-Fix Patch Generator**: Automatically generates verified inline GitHub review suggestions for identified issues.
-- **LangGraph Orchestration**: State-machine workflow handling agent coordination, deterministic failure gates, and deduplication.
+### 🛰️ Orion
+> **Private, offline-first on-device AI assistant.**
 
-**Tech Stack:** `LangGraph` • `FastAPI` • `Python` • `TypeScript` • `Bun` • `ts-morph` • `Docker` • `GitHub Webhooks`
+Executes local LLM inference directly inside the browser using WebGPU, ensuring complete data privacy with zero cloud latency.
 
-<br>
+- Browser-native local inference powered by WebLLM & WebGPU
+- Isolated Web Workers for model execution and doc parsing
+- Client-side document upload, chunking, and local IndexedDB chat
 
-<a href="https://github.com/santheesh73/Ignition">
-  <img src="https://img.shields.io/badge/View_Repository-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="View Ignition Repo">
-</a>
-
----
-
-### 06. 📨 Notification-Router — Multimodal Message Triage Engine
-> **Intelligent notification routing engine predicting actions (`notify`, `digest`, `mute`) for multimodal WhatsApp messages.**
-
-- **Multimodal Ingestion**: Processes text, image (OCR), and voice notes through dedicated feature extraction pipelines.
-- **Dual-Tier Resolution**: 16-rule deterministic engine resolves 80% of routine messages with microsecond latency; edge cases route to an AI decision orchestrator.
-- **Calibrated Confidence**: Confidence calibration module dynamically balances user interruption cost against message urgency.
-- **Adversarial Scam Defense**: Stress-tested against synthetic phishing attempts, urgent OTP scams, and payment spoofing.
-
-**Tech Stack:** `Python` • `FastAPI` • `OCR` • `Speech Processing` • `Scikit-Learn` • `Rule Engine`
+`Next.js` • `TypeScript` • `WebGPU` • `WebLLM` • `Dexie` • `PWA`
 
 <br>
 
-<a href="https://github.com/santheesh73/Notification-Router">
-  <img src="https://img.shields.io/badge/View_Repository-0284C7?style=for-the-badge&logo=github&logoColor=white" alt="View Notification-Router Repo">
-</a>
+[View Repository →](https://github.com/santheesh73/Orion)
+
+</td>
+<td width="50%" valign="top">
+
+### 🌾 BHOOMI
+> **AI-powered agricultural intelligence & farmer assistance.**
+
+A voice-first agricultural intelligence platform empowering farmers with localized crop diagnostics, weather alerts, and market advisories.
+
+- Voice-first multilingual conversational interface
+- Computer vision diagnostics for crop disease detection
+- Hyperlocal weather intelligence and advisory synthesis
+
+`Python` • `React` • `FastAPI` • `PyTorch` • `Gemini` • `Multimodal AI`
+
+<br>
+
+[View Repository →](https://github.com/santheesh73/Bhoomi-SIH-Agri)
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+
+### ⚡ MINCHAL
+> **Electricity bill intelligence & household energy audit.**
+
+Converts electricity bill photos into an itemized, appliance-level energy audit combining Gemini Vision with deterministic calculations.
+
+- Multimodal bill photo extraction via Gemini Vision OCR
+- 100% deterministic appliance math engine preventing hallucinations
+- Cost-ranked ROI recommendations localized in English and Tamil
+
+`React` • `TypeScript` • `Vite` • `FastAPI` • `Python` • `Gemini` • `PWA`
+
+<br>
+
+[View Repository →](https://github.com/santheesh73/Minchal-deploy)
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -245,48 +242,45 @@ Crafting end-to-end applications with reactive frontends (Next.js, React, Tailwi
 
 <br>
 
-### Frontend & Client Architecture
+### Frontend
 <img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind&perline=4" alt="Frontend Technologies">
 
 <br>
 
-### Backend & API Engineering
+### Backend
 <img src="https://skillicons.dev/icons?i=fastapi,python&perline=2" alt="Backend Technologies">
 
 <br>
 
-### AI Engineering & Machine Learning
-<img src="https://img.shields.io/badge/LangGraph-Agent_Orchestration-9333EA?style=for-the-badge" alt="LangGraph">
+### AI & Machine Learning
 <img src="https://img.shields.io/badge/Generative_AI-8E44AD?style=for-the-badge&logo=openai&logoColor=white" alt="Generative AI">
 <img src="https://img.shields.io/badge/LLMs-Prompt_Engineering-111827?style=for-the-badge" alt="LLMs">
 <img src="https://img.shields.io/badge/RAG-Vector_Search-0F766E?style=for-the-badge" alt="RAG">
+<img src="https://img.shields.io/badge/AI_Agents-Orchestration-2563EB?style=for-the-badge" alt="AI Agents">
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
 
 <br><br>
 
-### Models & On-Device Runtimes
-<img src="https://img.shields.io/badge/WebLLM-Browser_Local_AI-3B82F6?style=for-the-badge" alt="WebLLM">
-<img src="https://img.shields.io/badge/WebGPU-Hardware_Acceleration-E11D48?style=for-the-badge" alt="WebGPU">
+### Models & Platforms
 <img src="https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini">
 <img src="https://img.shields.io/badge/Google_Gemma-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemma">
 <img src="https://img.shields.io/badge/Groq_LLaMA-F55036?style=for-the-badge" alt="Groq LLaMA">
 <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face">
+<img src="https://img.shields.io/badge/WebLLM_/_WebGPU-Local_AI-3B82F6?style=for-the-badge" alt="WebLLM WebGPU">
 
 <br><br>
 
-### Databases & Vector Stores
+### Databases
 <img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,supabase,redis&perline=5" alt="Databases">
 <br>
 <img src="https://img.shields.io/badge/ChromaDB-Vector_Storage-E11D48?style=for-the-badge" alt="ChromaDB">
-<img src="https://img.shields.io/badge/Dexie_/_IndexedDB-Client_Storage-0EA5E9?style=for-the-badge" alt="Dexie IndexedDB">
+<img src="https://img.shields.io/badge/IndexedDB_/_Dexie-Client_Storage-0EA5E9?style=for-the-badge" alt="IndexedDB">
 
 <br><br>
 
-### DevOps, Runtime & Infrastructure
+### DevOps & Tools
 <img src="https://skillicons.dev/icons?i=docker,git,github,vercel,sentry&perline=5" alt="DevOps and Tools">
-<img src="https://img.shields.io/badge/Bun-AST_Runtime-000000?style=for-the-badge&logo=bun&logoColor=white" alt="Bun">
-<img src="https://img.shields.io/badge/Render-Deployment-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render">
+<img src="https://img.shields.io/badge/Render-Cloud_Hosting-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render">
 
 </div>
 
@@ -294,33 +288,20 @@ Crafting end-to-end applications with reactive frontends (Next.js, React, Tailwi
 
 ## ⚙️ Engineering Philosophy
 
+<div align="center">
+
 ```text
-┌───────────┐     ┌────────────┐     ┌───────────┐     ┌───────────┐     ┌──────────────┐
-│  Problem  │ ──► │ Understand │ ──► │  Design   │ ──► │   Build   │ ──► │ Integrate AI │
-└───────────┘     └────────────┘     └───────────┘     └───────────┘     └──────────────┘
-                                                                                 │
-┌───────────┐     ┌────────────┐     ┌───────────┐                               │
-│  Improve  │ ◄── │   Deploy   │ ◄── │   Test    │ ◄─────────────────────────────┘
-└───────────┘     └────────────┘     └───────────┘
+Problem ──► Understand ──► Build ──► Integrate AI ──► Test ──► Deploy ──► Improve
 ```
 
-> ### The Hybrid Intelligence Principle
-> **AI should be a component of a reliable software system, not the entire system.**
-> 
-> In production software, LLMs excel at perception, semantic extraction, synthesis, and explanation. However, mission-critical calculations, compliance checks, and access control must be handled by **deterministic software engines**.
-> 
-> ```text
-> ┌──────────────────────────────────────────────────────────────────────────────┐
-> │    AI Perception & Reasoning   +   Deterministic Logic & Verification        │
-> │    (Extraction, Synthesis, UX)      (Math, Compliance, Business Rules)       │
-> │                                                                              │
-> │                     =  Reliable Production Software                          │
-> └──────────────────────────────────────────────────────────────────────────────┘
-> ```
+</div>
+
+> **AI should be part of a reliable software system, not the entire system.**  
+> Complex applications require combining AI perception and semantic extraction with deterministic calculations, rigorous validation, and intuitive user experiences.
 
 ---
 
-## 🔬 Technical Focus Areas
+## 🔬 Engineering Interests
 
 <table>
 <tr>
@@ -332,9 +313,9 @@ Crafting end-to-end applications with reactive frontends (Next.js, React, Tailwi
 <td valign="top">
 
 - Large Language Models (LLMs)
-- Multi-Agent Orchestration (LangGraph)
-- On-Device / Browser AI (WebGPU, WebLLM)
-- Local Inference & Zero-Cloud Privacy
+- Autonomous AI Agents
+- Generative AI Applications
+- On-Device AI & WebGPU
 - Structured Output Extraction
 
 </td>
@@ -343,17 +324,17 @@ Crafting end-to-end applications with reactive frontends (Next.js, React, Tailwi
 - Retrieval-Augmented Generation (RAG)
 - Vector Embeddings & Similarity Search
 - Document Intelligence & PDF Parsing
-- Deterministic Verification Gates
-- Codebase Analysis & AST Inspection
+- Semantic Codebase Analysis
+- Deterministic Verification Engines
 
 </td>
 <td valign="top">
 
-- Modern React & Next.js Architecture
-- High-Performance FastAPI Services
+- React & Next.js Architecture
+- High-Throughput FastAPI Services
 - Relational & Document Databases
-- Offline-First PWA Engineering
-- Clean API Design & Data Pipelines
+- Offline-First PWA Systems
+- Resilient API Design
 
 </td>
 </tr>
@@ -363,10 +344,11 @@ Crafting end-to-end applications with reactive frontends (Next.js, React, Tailwi
 
 ## 🚀 Current Focus
 
-- 🧠 **Multi-Agent Orchestration**: Designing robust agent graphs where specialized agents cross-validate and critique outputs deterministically.
-- ⚡ **On-Device Inference**: Advancing browser-native local model execution, WebGPU acceleration, and privacy-preserving AI.
-- 🔎 **High-Precision RAG**: Building hybrid retrieval pipelines combining keyword filtering, dense vector embeddings, and reranking.
-- 🛠️ **Intelligent Developer Tooling**: Automating code review, syntax analysis, and AST-driven codebase inspection.
+- 🧠 **LLM Engineering & Agents**: Production-grade agentic workflows and reliable reasoning systems.
+- 🔎 **High-Precision RAG**: Hybrid retrieval systems combining dense vector embeddings and deterministic verification.
+- ⚡ **On-Device AI**: Advancing browser-native model execution with WebGPU and zero-cloud privacy.
+- 📄 **Document Intelligence**: Structured multi-format extraction and compliance auditing.
+- 💻 **Full-Stack AI Products**: Building intuitive, useful end-to-end software.
 
 ---
 
@@ -403,7 +385,7 @@ Crafting end-to-end applications with reactive frontends (Next.js, React, Tailwi
 
 <div align="center">
 
-I am always interested in collaborating on **AI/ML projects, open-source developer tooling, full-stack systems, and hackathon builds**.
+I am always interested in collaborating on **AI/ML projects, developer tooling, full-stack systems, and hackathon builds**.
 
 <br>
 
