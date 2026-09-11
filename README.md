@@ -12,21 +12,6 @@
 [![Repositories](https://img.shields.io/badge/Repositories-Public_Projects-DC2626?style=for-the-badge&logo=git&logoColor=white)](https://github.com/santheesh73?tab=repositories)
 [![Profile Views](https://komarev.com/ghpvc/?username=santheesh73&style=for-the-badge&label=LAB%20VISITORS&color=DC2626)](https://github.com/santheesh73)
 
-<br><br>
-
-### `AI × SOFTWARE × PRODUCT`
-**Building intelligent software that turns complex problems into useful products.**  
-Focused on **Generative AI**, **LLMs**, **RAG**, **AI Agents**, **On-Device AI**, and **Modern Full-Stack Systems**.
-
-<br>
-
-<a href="#-what-i-build">What I Build</a> •
-<a href="#-tech-stack">Tech Stack</a> •
-<a href="#-featured-projects">Featured Projects</a> •
-<a href="#%EF%B8%8F-engineering-philosophy">Philosophy</a> •
-<a href="#-github-analytics">Analytics</a> •
-<a href="#-connect">Connect</a>
-
 </div>
 
 ---
