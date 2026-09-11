@@ -88,50 +88,51 @@ End-to-end applications built with modern reactive frontends and high-performanc
 
 <div align="center">
 
-#### Languages
+<p>
+<b>Languages</b><br>
 <img src="https://skillicons.dev/icons?i=python,typescript,javascript,html,css&perline=5" alt="Languages" />
+</p>
 
-<br>
-
-#### Frontend
+<p>
+<b>Frontend</b><br>
 <img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind&perline=4" alt="Frontend" />
+</p>
 
-<br>
-
-#### Backend & APIs
+<p>
+<b>Backend & APIs</b><br>
 <img src="https://skillicons.dev/icons?i=fastapi,python&perline=2" alt="Backend" />
+</p>
 
-<br>
-
-#### AI & Machine Learning
+<p>
+<b>AI & Machine Learning</b><br>
 <img src="https://img.shields.io/badge/Generative_AI-8E44AD?style=for-the-badge&logo=openai&logoColor=white" alt="Generative AI" />
-<img src="https://img.shields.io/badge/LLMs-Prompt_Engineering-111827?style=for-the-badge" alt="LLMs" />
+<img src="https://img.shields.io/badge/LLMs-Prompt_Engineering-111827?style=for-the-badge&logo=openai&logoColor=white" alt="LLMs" />
 <img src="https://img.shields.io/badge/RAG-Vector_Search-0F766E?style=for-the-badge" alt="RAG" />
 <img src="https://img.shields.io/badge/AI_Agents-2563EB?style=for-the-badge" alt="AI Agents" />
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+</p>
 
-<br><br>
-
-#### Models & Platforms
+<p>
+<b>Models & Platforms</b><br>
 <img src="https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
 <img src="https://img.shields.io/badge/Google_Gemma-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemma" />
 <img src="https://img.shields.io/badge/Groq_LLaMA-F55036?style=for-the-badge" alt="Groq LLaMA" />
 <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
 <img src="https://img.shields.io/badge/WebLLM_/_WebGPU-Local_AI-3B82F6?style=for-the-badge" alt="WebLLM WebGPU" />
+</p>
 
-<br><br>
-
-#### Databases & Vector Stores
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,supabase,redis&perline=5" alt="Databases" />
-<br>
+<p>
+<b>Databases & Vector Stores</b><br>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,supabase,redis&perline=5" alt="Databases" /><br>
 <img src="https://img.shields.io/badge/ChromaDB-Vector_Storage-E11D48?style=for-the-badge" alt="ChromaDB" />
 <img src="https://img.shields.io/badge/IndexedDB_/_Dexie-Client_Storage-0EA5E9?style=for-the-badge" alt="IndexedDB" />
+</p>
 
-<br><br>
-
-#### DevOps & Tools
+<p>
+<b>DevOps & Tools</b><br>
 <img src="https://skillicons.dev/icons?i=docker,git,github,vercel,sentry&perline=5" alt="DevOps and Tools" />
 <img src="https://img.shields.io/badge/Render-Cloud_Hosting-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
+</p>
 
 </div>
 
