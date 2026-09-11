@@ -1,22 +1,31 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0204,35:1A0509,70:580F16,100:DC2626&height=210&section=header&text=SANTHEESH%20S&fontSize=50&fontColor=ffffff&fontAlignY=42&desc=AI%20ENGINEER%20%E2%80%A2%20FULL-STACK%20DEVELOPER&descAlignY=64&descSize=16" width="100%" alt="Header Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0204,35:1A0509,70:580F16,100:DC2626&height=210&section=header&text=SANTHEESH%20S&fontSize=50&fontColor=ffffff&fontAlignY=42&desc=AI%20ENGINEER%20%E2%80%A2%20FULL-STACK%20DEVELOPER%20%E2%80%A2%20BUILDER&descAlignY=64&descSize=16" width="100%" alt="Header Banner" />
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=EF4444&center=true&vCenter=true&width=800&height=50&lines=%3E+initializing+profile...;%3E+loading+AI+systems...;%3E+loading+projects...;%3E+status%3A+BUILDING" alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=EF4444&center=true&vCenter=true&width=800&height=50&lines=%3E+initializing+profile...;%3E+loading+AI+systems...;%3E+loading+projects...;%3E+loading+engineering+stack...;%3E+status%3A+BUILDING" alt="Typing Animation" />
 
 <br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-santheesh73-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/santheesh73)
 [![Repositories](https://img.shields.io/badge/Repositories-Public_Projects-DC2626?style=for-the-badge&logo=git&logoColor=white)](https://github.com/santheesh73?tab=repositories)
-[![Profile Views](https://komarev.com/ghpvc/?username=santheesh73&style=for-the-badge&label=VISITORS&color=DC2626)](https://github.com/santheesh73)
+[![Profile Views](https://komarev.com/ghpvc/?username=santheesh73&style=for-the-badge&label=LAB%20VISITORS&color=DC2626)](https://github.com/santheesh73)
 
 <br><br>
 
 ### `AI × SOFTWARE × PRODUCT`
 **Building intelligent software that turns complex problems into useful products.**  
-Specialized in **Generative AI**, **LLMs**, **RAG**, **AI Agents**, **On-Device AI**, and **Full-Stack Systems**.
+Focused on **Generative AI**, **LLMs**, **RAG**, **AI Agents**, **On-Device AI**, and **Modern Full-Stack Systems**.
+
+<br>
+
+<a href="#-what-i-build">What I Build</a> •
+<a href="#-tech-stack">Tech Stack</a> •
+<a href="#-featured-projects">Featured Projects</a> •
+<a href="#%EF%B8%8F-engineering-philosophy">Philosophy</a> •
+<a href="#-github-analytics">Analytics</a> •
+<a href="#-connect">Connect</a>
 
 </div>
 
@@ -38,6 +47,53 @@ Specialized in **Generative AI**, **LLMs**, **RAG**, **AI Agents**, **On-Device 
 
 ---
 
+## 🎯 What I Build
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🤖 Generative AI
+Frontier LLM applications focused on structured data extraction, contextual reasoning, and intelligent task synthesis.
+
+</td>
+<td width="33%" valign="top">
+
+### 🧠 LLM Applications
+Domain-specific intelligent products combining foundation models with deterministic software logic.
+
+</td>
+<td width="33%" valign="top">
+
+### 🔎 RAG & Knowledge
+Production retrieval architectures with vector embeddings, semantic search, and verified citations.
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+### ⚡ On-Device AI
+Zero-cloud local inference running in browsers via WebGPU and WebLLM for complete privacy.
+
+</td>
+<td width="33%" valign="top">
+
+### 🛠️ AI Developer Tools
+Codebase intelligence, structural parsing, and automated software analysis pipelines.
+
+</td>
+<td width="33%" valign="top">
+
+### 💻 Full-Stack Products
+End-to-end applications built with modern reactive frontends and high-performance asynchronous APIs.
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 🛠️ Tech Stack
 
 <div align="center">
@@ -52,17 +108,40 @@ Specialized in **Generative AI**, **LLMs**, **RAG**, **AI Agents**, **On-Device 
 
 <br>
 
+#### Backend & APIs
+<img src="https://skillicons.dev/icons?i=fastapi,python&perline=2" alt="Backend" />
+
+<br>
+
 #### AI & Machine Learning
-<img src="https://img.shields.io/badge/LLMs-Prompt_Engineering-111827?style=for-the-badge&logo=openai&logoColor=white" alt="LLMs" />
+<img src="https://img.shields.io/badge/Generative_AI-8E44AD?style=for-the-badge&logo=openai&logoColor=white" alt="Generative AI" />
+<img src="https://img.shields.io/badge/LLMs-Prompt_Engineering-111827?style=for-the-badge" alt="LLMs" />
 <img src="https://img.shields.io/badge/RAG-Vector_Search-0F766E?style=for-the-badge" alt="RAG" />
 <img src="https://img.shields.io/badge/AI_Agents-2563EB?style=for-the-badge" alt="AI Agents" />
-<img src="https://img.shields.io/badge/Generative_AI-8E44AD?style=for-the-badge" alt="Generative AI" />
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
 
 <br><br>
 
-#### Backend & Data
-<img src="https://skillicons.dev/icons?i=fastapi,postgres,mongodb,sqlite,redis,supabase&perline=6" alt="Backend and Databases" />
+#### Models & Platforms
+<img src="https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
+<img src="https://img.shields.io/badge/Google_Gemma-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemma" />
+<img src="https://img.shields.io/badge/Groq_LLaMA-F55036?style=for-the-badge" alt="Groq LLaMA" />
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
+<img src="https://img.shields.io/badge/WebLLM_/_WebGPU-Local_AI-3B82F6?style=for-the-badge" alt="WebLLM WebGPU" />
+
+<br><br>
+
+#### Databases & Vector Stores
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,supabase,redis&perline=5" alt="Databases" />
+<br>
+<img src="https://img.shields.io/badge/ChromaDB-Vector_Storage-E11D48?style=for-the-badge" alt="ChromaDB" />
+<img src="https://img.shields.io/badge/IndexedDB_/_Dexie-Client_Storage-0EA5E9?style=for-the-badge" alt="IndexedDB" />
+
+<br><br>
+
+#### DevOps & Tools
+<img src="https://skillicons.dev/icons?i=docker,git,github,vercel,sentry&perline=5" alt="DevOps and Tools" />
+<img src="https://img.shields.io/badge/Render-Cloud_Hosting-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
 
 </div>
 
@@ -195,6 +274,71 @@ Specialized in **Generative AI**, **LLMs**, **RAG**, **AI Agents**, **On-Device 
 </td>
 </tr>
 </table>
+
+---
+
+## ⚙️ Engineering Philosophy
+
+<div align="center">
+
+```text
+Problem ──► Understand ──► Build ──► Integrate AI ──► Test ──► Deploy ──► Improve
+```
+
+</div>
+
+> **AI + Deterministic Logic + Good UX + Reliable Engineering**  
+> *AI should be a component of a reliable software system, not the entire system.* Complex applications require combining AI perception and semantic extraction with deterministic calculations, rigorous validation, and intuitive user experiences.
+
+---
+
+## 🔬 Engineering Interests
+
+<table>
+<tr>
+<th width="33%" align="center">🤖 AI SYSTEMS</th>
+<th width="33%" align="center">🔎 KNOWLEDGE SYSTEMS</th>
+<th width="33%" align="center">💻 PRODUCT ENGINEERING</th>
+</tr>
+<tr>
+<td valign="top">
+
+- Large Language Models (LLMs)
+- Autonomous AI Agents
+- On-Device AI & WebGPU
+- Structured Output Extraction
+- Local Model Execution
+
+</td>
+<td valign="top">
+
+- Retrieval-Augmented Generation (RAG)
+- Vector Embeddings & Similarity Search
+- Document Intelligence & OCR
+- Semantic Codebase Analysis
+- Deterministic Verification Engines
+
+</td>
+<td valign="top">
+
+- React & Next.js Architecture
+- High-Throughput FastAPI Services
+- Relational & Document Databases
+- Offline-First PWA Systems
+- Resilient API Design
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 Current Focus
+
+- 🧠 **LLM Engineering & Agents**: Production-grade agentic workflows with deterministic validation.
+- ⚡ **On-Device Inference**: Advancing browser-native local models via WebGPU & WebLLM.
+- 🔎 **High-Precision RAG**: Hybrid retrieval pipelines with vector embeddings and semantic reranking.
+- 📄 **Document Intelligence**: Structured multi-format extraction for compliance and audits.
 
 ---
 
