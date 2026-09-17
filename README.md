@@ -338,7 +338,7 @@ Problem ──► Understand ──► Build ──► Integrate AI ──► Te
 <br><br>
 
 <a href="https://github.com/santheesh73">
-  <img src="https://streak-stats.demolab.com?user=santheesh73&theme=tokyonight&hide_border=true" width="65%" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=santheesh73&theme=tokyonight&hide_border=true&timezone=Asia/Kolkata" width="65%" alt="GitHub Streak" />
 </a>
 
 <br><br>
