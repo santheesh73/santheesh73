@@ -29,7 +29,7 @@
 <td width="33%" valign="top">
 
 ### 🤖 Generative AI
-Frontier LLM applications focused on structured data extraction, contextual reasoning, and intelligent task synthesis.
+Frontier LLM applications focused on structured data extraction, contextual reasoning and intelligent task synthesis.
 
 </td>
 <td width="33%" valign="top">
