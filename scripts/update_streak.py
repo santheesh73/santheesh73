@@ -2,12 +2,23 @@ import os
 import re
 import urllib.request
 import json
+import time
 
 def fetch_streak_svg():
     url = "https://streak-stats.demolab.com?user=santheesh73&theme=tokyonight&hide_border=true&timezone=Asia/Kolkata"
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
-    with urllib.request.urlopen(req, timeout=15) as res:
-        return res.read().decode("utf-8")
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+    
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=15) as res:
+                content = res.read().decode("utf-8")
+                if "<svg" in content and "</svg>" in content:
+                    return content
+        except Exception as e:
+            print(f"Attempt {attempt + 1} failed to fetch SVG: {e}")
+            time.sleep(3)
+    return None
 
 def get_token_contributions(token):
     if not token:
@@ -46,6 +57,12 @@ def main():
     print("Fetching latest streak SVG from endpoint...")
     svg = fetch_streak_svg()
     
+    out_path = os.path.join("assets", "streak.svg")
+    
+    if not svg:
+        print("Warning: Could not fetch new SVG from endpoint, preserving existing SVG.")
+        return
+    
     # Extract base total contributions from SVG
     m = re.search(r'<!-- Total Contributions big number -->.*?<text[^>]*>\s*(\d+)\s*</text>', svg, re.DOTALL)
     if not m:
@@ -74,7 +91,6 @@ def main():
             flags=re.DOTALL
         )
 
-    out_path = os.path.join("assets", "streak.svg")
     os.makedirs("assets", exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(final_svg)
