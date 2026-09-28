@@ -3,6 +3,7 @@ import re
 import urllib.request
 import json
 import time
+import concurrent.futures
 
 def fetch_streak_svg():
     url = "https://streak-stats.demolab.com?user=santheesh73&theme=tokyonight&hide_border=true&timezone=Asia/Kolkata"
@@ -55,7 +56,15 @@ def main():
     token = os.environ.get("STREAK_STATS_TOKEN") or os.environ.get("GITHUB_TOKEN")
     
     print("Fetching latest streak SVG from endpoint...")
-    svg = fetch_streak_svg()
+
+    # ⚡ Bolt: Execute I/O bound network requests concurrently using ThreadPoolExecutor
+    # to significantly reduce script execution time.
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+        future_svg = executor.submit(fetch_streak_svg)
+        future_token_total = executor.submit(get_token_contributions, token)
+
+        svg = future_svg.result()
+        token_total = future_token_total.result()
     
     out_path = os.path.join("assets", "streak.svg")
     
@@ -73,7 +82,6 @@ def main():
         
         # User has verified real contribution baseline of 472
         # (accounting for private/organization repository contributions)
-        token_total = get_token_contributions(token)
         
         # Base count from public API was ~320 when verified total was 472 (offset = 152)
         calculated_total = base_val + 152
