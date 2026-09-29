@@ -65,6 +65,13 @@ def calculate_real_streak(token):
             repos = json.loads(res.read().decode("utf-8"))
             
         for r in repos:
+            # ⚡ Bolt Performance Optimization:
+            # Skip fetching commits for repos that haven't been updated since our 90-day window.
+            # This avoids unnecessary API calls for inactive repos, significantly improving performance.
+            pushed_at = r.get("pushed_at")
+            if pushed_at and pushed_at < since_utc:
+                continue
+
             rname = r["name"]
             url = f"https://api.github.com/repos/santheesh73/{rname}/commits?author=santheesh73&since={since_utc}&per_page=100"
             try:
