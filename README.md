@@ -61,7 +61,7 @@ Codebase intelligence, structural parsing, and automated software analysis pipel
 <td width="33%" valign="top">
 
 ### 💻 Full-Stack Products
-End-to-end applications built with modern reactive frontends and high-performance asynchronous APIs.
+End-to-end applications built with modern reactive frontends and high performance asynchronous APIs.
 
 </td>
 </tr>
