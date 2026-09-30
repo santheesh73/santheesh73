@@ -81,7 +81,8 @@ def calculate_real_streak(token):
     # 2. If token is available, supplement with repo commit API for any newly pushed commits
     if token:
         headers = {"User-Agent": "Mozilla/5.0", "Authorization": f"token {token}"}
-        since_utc = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=90)).isoformat()
+        since_dt = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=90)
+        since_utc = since_dt.isoformat()
         try:
             repo_url = "https://api.github.com/user/repos?per_page=100&affiliation=owner"
             req = urllib.request.Request(repo_url, headers=headers)
@@ -89,6 +90,15 @@ def calculate_real_streak(token):
                 repos = json.loads(res.read().decode("utf-8"))
                 
             for r in repos:
+                # ⚡ Performance Optimization: Skip repositories that haven't been pushed to recently.
+                # This drastically reduces the number of secondary API requests for commit history
+                # and avoids hitting GitHub's API rate limits or being throttled.
+                pushed_at_str = r.get("pushed_at")
+                if pushed_at_str:
+                    pushed_at_dt = datetime.datetime.fromisoformat(pushed_at_str.replace("Z", "+00:00"))
+                    if pushed_at_dt < since_dt:
+                        continue
+
                 rname = r["name"]
                 url = f"https://api.github.com/repos/santheesh73/{rname}/commits?author=santheesh73&since={since_utc}&per_page=50"
                 try:
