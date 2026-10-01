@@ -1,0 +1,3 @@
+## 2026-10-01 - Avoid GitHub API Rate Limits with Smart Filtering
+**Learning:** When fetching commit histories across multiple repositories, making sequential API calls for every repository takes a long time, but using concurrent requests (like ThreadPoolExecutor) triggers GitHub's secondary rate limits (403 Forbidden) causing silent data loss.
+**Action:** Instead of concurrent requests or naive iteration, always filter the data first. Use the repository's `pushed_at` field to skip repositories that haven't been updated since the target date. This drastically reduces the number of API calls, avoiding rate limits while still being fast.

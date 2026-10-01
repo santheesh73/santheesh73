@@ -81,7 +81,13 @@ def calculate_real_streak(token):
     # 2. If token is available, supplement with repo commit API for any newly pushed commits
     if token:
         headers = {"User-Agent": "Mozilla/5.0", "Authorization": f"token {token}"}
-        since_utc = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=90)).isoformat()
+        since_utc_dt = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=90)
+        since_utc = since_utc_dt.isoformat()
+
+        # ⚡ Bolt Optimization: GitHub's pushed_at uses Z timezone.
+        # Filtering repos by pushed_at avoids unnecessary API calls for dormant repos.
+        since_utc_clean = since_utc_dt.replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
         try:
             repo_url = "https://api.github.com/user/repos?per_page=100&affiliation=owner"
             req = urllib.request.Request(repo_url, headers=headers)
@@ -89,6 +95,12 @@ def calculate_real_streak(token):
                 repos = json.loads(res.read().decode("utf-8"))
                 
             for r in repos:
+                # ⚡ Bolt Optimization: Skip fetching commits if the repo hasn't been pushed to
+                # since our 90-day threshold. Drastically reduces sequential API calls.
+                pushed_at = r.get("pushed_at")
+                if pushed_at and pushed_at < since_utc_clean:
+                    continue
+
                 rname = r["name"]
                 url = f"https://api.github.com/repos/santheesh73/{rname}/commits?author=santheesh73&since={since_utc}&per_page=50"
                 try:
