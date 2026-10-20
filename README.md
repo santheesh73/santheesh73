@@ -317,10 +317,10 @@ Problem ──► Understand ──► Build ──► Integrate AI ──► Te
 
 ## 🚀 Current Focus
 
-- 🧠 **LLM Engineering & Agents**: Production-grade agentic workflows with deterministic validation.
-- ⚡ **On-Device Inference**: Advancing browser-native local models via WebGPU & WebLLM.
-- 🔎 **High-Precision RAG**: Hybrid retrieval pipelines with vector embeddings and semantic reranking.
-- 📄 **Document Intelligence**: Structured multi-format extraction for compliance and audits.
+- 🧠 *LLM Engineering & Agents*: Production-grade agentic workflows with deterministic validation.
+- ⚡ *On-Device Inference*: Advancing browser-native local models via WebGPU & WebLLM.
+- 🔎 *High-Precision RAG*: Hybrid retrieval pipelines with vector embeddings and semantic reranking.
+- 📄 *Document Intelligence*: Structured multi-format extraction for compliance and audits.
 
 ---
 
