@@ -375,7 +375,7 @@ Problem ──► Understand ──► Build ──► Integrate AI ──► Te
 
 ### **Think Deeply. Build Deliberately. Ship Continuously.**
 
-<sub>Building reliable intelligent software, one system at a time.</sub><br>
+<sub>Building reliable intelligent software,one system at a time.</sub><br>
 <sub>Developed for the Educational purpose</sub>
 
 <br>
