@@ -17,7 +17,7 @@
 ---
 
 <div align="center">
-  <img src="./assets/terminal.svg" alt="Santheesh S - AI Engineering Lab Terminal Status (Boot ➔ Scan ➔ Process ➔ Build ➔ Deploy)" width="100%" />
+  <img src="./assets/terminal.svg" alt="Santheesh S - AI Engineering Lab Terminal Status (Boot ➔ Scan ➔ Process ➔ Build ➔ Deploy) " width="100%" />
 </div>
 
 ---
